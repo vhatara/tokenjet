@@ -1,0 +1,65 @@
+.home-div { 
+    height: 100vh;
+    align-items: center;
+}
+
+.landing { 
+    color: var(--white);
+    align-items: center;
+}
+
+.topThreeCoins { 
+    display: flex;
+}
+
+.landing-text { 
+    font-size: 100px;
+    font-family: var(--primary-font);
+}
+
+.landing a { 
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.explore-more { 
+    padding: 10px 20px;
+    border-radius: 75px;
+    background-color:var(--primary-color);
+    color: var(--background-color)!important;
+    text-decoration: none;
+    font-weight: 700!important;
+}
+
+.join{ 
+    padding: 10px 20px;
+    border-radius: 75px;
+    background-color:var(--background-color);
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color)!important;
+    text-decoration: none;
+    font-weight: 700!important;
+}
+
+
+.explore-here:hover { 
+    color: var(--background-color)!important;
+    background-color: #f1cc47!important;
+
+}
+
+.landing-img img { 
+    height: 500px;
+    width: auto;
+}
+
+
+@media screen and (max-width: 720px) {
+    .landing-text {
+        font-size: 4rem;
+    }
+
+    .topThreeCoins { 
+        display: none;
+    }
+} 

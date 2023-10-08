@@ -1,0 +1,35 @@
+.choose-us-container { 
+    height: 100vh;
+    align-items: center;
+    vertical-align: middle;
+    padding: 10rem 0px;
+}
+
+.hand-img { 
+    width: auto;
+    height: 300px;
+    box-sizing: content-box;
+    margin: auto 0;
+}
+
+.hand-img-icon { 
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+
+@media screen and (max-width: 720px) {
+    .features-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .hand-img-icon{
+        display: none;
+    }
+
+    .choose-us-container { 
+        padding-top: 5rem;
+    }
+}

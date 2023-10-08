@@ -1,0 +1,24 @@
+.topCoin-container { 
+    border: 1px solid var(--primary-color);
+    padding: 20px 10px;
+    border-radius: 10px;
+    align-items: center;
+    height: 75%
+}
+
+.img-symbol { 
+    height: 75px;
+    width: auto;
+}
+
+.topCoin-desc p { 
+    margin: 0;
+}
+
+.topCoin-price::before  {
+    content: "$";
+}
+
+.topCoin-name { 
+    color: var(--primary-color)
+}
