@@ -22,7 +22,7 @@ const TopThree = () => {
         <div key={topThree.id} className='topCoin-container d-flex p-4 mx-4 mt-3'>
           <img src={topThree.image} alt={topThree.id} className='img-symbol'/>
           <div className='topCoin-desc d-flex flex-column ms-3'>
-            <p className='topCoin-price'>{topThree.current_price}</p>
+            <p className='topCoin-price'>{topThree.current_price.toLocaleString()}</p>
             <p className='topCoin-name'>{topThree.name.toUpperCase()}</p>
           </div>
         </div>

@@ -18,7 +18,7 @@ const Home = (props) => {
             </p>
               <div className='call-to-action'>
                 <a href="#market" className='explore-more ms-3'>Explore More</a>
-                <a href="#join" className='join mx-3'>Join</a>
+                {/* <a href="#join" className='join mx-3'>Join</a> */}
               </div>
           </div>
 
